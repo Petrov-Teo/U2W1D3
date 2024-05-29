@@ -11,46 +11,50 @@ body {
 .contMain {
   flex-direction: column;
   width: 420px;
-  border-radius: 25%;
+  border-radius: 30%;
   display: flex;
   background-color: #fcf7e3;
   padding-block-end: 20px;
   align-items: center;
 }
 .imgDiv {
-  flex-shrink: 3;
+  display: flex;
 }
 .twoPdiv {
   display: flex;
-  padding: 30px 40px;
-  justify-content: space-between;
-  align-items: baseline;
+  padding: 30px 5px;
+  justify-content: stretch;
+  align-items: inherit;
 }
 .bioHonney {
   padding: 10px;
   text-align: center;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 600;
 }
 .bre {
   padding: 20px;
   text-align: center;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 100;
 }
 
 img {
   max-width: 100%;
-  border-top-left-radius: 20%;
-  border-top-right-radius: 20%;
+  max-height: 100%;
+  object-fit: none;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+}
+.buttonDiv {
+  align-items: stretch;
 }
 button {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   margin: auto;
   background-color: #f3df85;
   border: 0px;
-  width: 100%;
-  border-radius: 15px;
-  padding: 15px 80px;
+  border-radius: 25px;
+  padding: 10px 50px;
 }

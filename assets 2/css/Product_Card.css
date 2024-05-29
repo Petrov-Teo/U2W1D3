@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  margin-block: 20px;
+  margin: 20px;
   font-family: Arial, "Helvetica Neue", Helvetica,
     sans-serif;
   color: #612406;
@@ -10,26 +10,47 @@ body {
 
 .contMain {
   flex-direction: column;
-  width: 500px;
-  height: 600px;
-  border-radius: 20%;
+  width: 420px;
+  border-radius: 25%;
   display: flex;
   background-color: #fcf7e3;
-  font-size: 30px;
+  padding-block-end: 20px;
+  align-items: center;
 }
 .imgDiv {
-  display: flexbox;
+  flex-shrink: 3;
+}
+.twoPdiv {
+  display: flex;
+  padding: 30px 40px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.bioHonney {
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.bre {
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 img {
+  max-width: 100%;
   border-top-left-radius: 20%;
   border-top-right-radius: 20%;
 }
 button {
+  font-size: 18px;
+  font-weight: normal;
+  margin: auto;
   background-color: #f3df85;
   border: 0px;
-  width: 200px;
-  height: 40px;
-  flex-grow: 0;
+  width: 100%;
   border-radius: 15px;
+  padding: 15px 80px;
 }

@@ -14,25 +14,29 @@ img {
   padding-right: 20px;
 }
 .mainNavDiv {
+  margin-inline: auto;
+  display: flex;
   width: 320px;
-  flex-direction: wrap;
+  flex-direction: row-reverse;
   background-color: #fcf7e3;
   border-radius: 40px;
-  gap: 20px;
-  flex-wrap: wrap;
+  gap: 10px;
+  flex-wrap: wrap-reverse;
   align-items: center;
   justify-content: center;
 }
 
 .btn {
+  display: flex;
   width: 100px;
   border-radius: 40px;
   background-color: #f3df85;
   color: #612406;
+  justify-content: center;
 }
 
 .textp {
-  order: 0;
+  order: 2;
 }
 
 .shopBtn {
@@ -42,5 +46,5 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  order: 0;
+  order: 1;
 }

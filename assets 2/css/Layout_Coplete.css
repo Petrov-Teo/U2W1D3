@@ -2,8 +2,6 @@
   box-sizing: border-box;
 }
 main {
-  height: 100vh;
-  width: auto;
 }
 body {
   size: 100%;
@@ -11,36 +9,32 @@ body {
     sans-serif;
   color: #612406;
 }
-nav {
-  width: 320px;
-  display: flex;
-}
 img {
   width: 50px;
   padding-right: 20px;
 }
-div {
-  margin-inline: auto;
-  flex-direction: column;
-  padding: 25px;
-  display: flex;
-  gap: 10px;
+.mainNavDiv {
+  width: 320px;
+  flex-direction: wrap;
   background-color: #fcf7e3;
   border-radius: 40px;
-  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .btn {
-  width: 110px;
-  height: auto;
-  padding: 10px;
+  width: 100px;
   border-radius: 40px;
-  border: none;
   background-color: #f3df85;
   color: #612406;
-  order: 1;
 }
+
+.textp {
+  order: 0;
+}
+
 .shopBtn {
   width: 140px;
   font-weight: 900;
